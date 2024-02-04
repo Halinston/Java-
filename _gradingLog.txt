@@ -1,0 +1,31 @@
+
+----LargeInteger Class TEST SETS -------------------------------------------------------
+
+Test Set 01: Test for no-argument constructor, and toString()                   PASSED    
+Test Set 01: Test #1 for getDigitCount()                                        PASSED    
+Test Set 02: Test for LargeInteger(String) - short number & empty string        PASSED    
+Test Set 02: Test for LargeInteger(String) - longest 23-digit number            PASSED    
+Test Set 02: LargeIntegerNumberFormatException - number too long                PASSED    
+Test Set 02: LargeIntegerNumberFormatException - malformed number               PASSED    
+Test Set 02: LargeIntegerNumberFormatException - empty string                   PASSED    
+Test Set 03: Test for LargeInteger(long) - short number                         PASSED    
+Test Set 03: Test for LargeInteger(long) - longest 19-digit long number         PASSED    
+Test Set 03: LargeIntegerNumberFormatException - negative long number           PASSED    
+Test Set 04: Test for add())- short number                                      PASSED    
+Test Set 04: Test for add() -  no carry over                                    PASSED    
+Test Set 04: Test for add() -  carry over                                       PASSED    
+Test Set 04: LargeIntegerOverflowException, number too large to fit             PASSED    
+Test Set 05: Test for clone()                                                   FAILED    
+Test Set 05: Test for isGreater()                                               PASSED    
+Test Set 05: Test for isLess()                                                  PASSED    
+Test Set 05: Test for equals()                                                  PASSED    
+
+----Rectangle Class TEST SETS -------------------------------------------------------
+
+Test Set 06: Test for Polymorphic.isSorted() - unsorted array                   PASSED    
+Test Set 06: Test for Polymorphic.isSorted() - sorted array                     PASSED    
+Test Set 06: Test for Polymorphic.isSorted() - array of Rectangles              PASSED    
+Test Set 07: Test for Read/Write LargeInteger methods                           PASSED    
+Test Set 07: Test for Read/Write LargeInteger methods - IOException             PASSED    
+LargeIntegerNumberFormatException! test01.txt (The system cannot find the file specified)
+Test Set 08: Test for addLargeIntegersFromFile() - IOException                  PASSED    
